@@ -1,0 +1,5 @@
+install.packages("remotes")
+remotes::install_github("lingeringcode/tweetscoresmod")
+library(readr)
+data <- read_csv("data.csv")
+View(data)
